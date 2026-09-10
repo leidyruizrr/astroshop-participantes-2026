@@ -1,0 +1,18 @@
+﻿{
+  "servers": {
+    "dynatrace": {
+      "type": "http",
+      "url": "https://ulk04354.sprint.apps.dynatracelabs.com/platform-reserved/mcp-gateway/v0.1/servers/dynatrace-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer TU_TOKEN_DYNATRACE"
+      }
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer TU_TOKEN_GITHUB"
+      }
+    }
+  }
+}
