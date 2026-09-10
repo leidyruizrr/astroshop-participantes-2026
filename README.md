@@ -1,0 +1,1 @@
+# astroshop-participantes-2026
