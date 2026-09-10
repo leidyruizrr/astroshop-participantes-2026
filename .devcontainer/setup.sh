@@ -1,5 +1,5 @@
-ï»¿#!/bin/bash
-# Se ejecuta automÃ¡ticamente al crear el Codespace (versiÃ³n Copilot).
+#!/bin/bash
+# Se ejecuta automáticamente al crear el Codespace (versión Copilot).
 
 set -e
 echo "=== Configurando el entorno del lab (Copilot) ==="
@@ -44,7 +44,7 @@ echo "=========================================="
 echo "  Entorno listo (Copilot)"
 echo "=========================================="
 echo "Faltan estos pasos:"
-echo "  1. Copia tu instruction file:   cp CLAUDE-0X.md .github/copilot-instructions.md"
+echo "  1. Copia tu instruction file:   cp INSTRUCCIONES-0X.md .github/copilot-instructions.md"
 echo "  2. Pon tu token de GitHub en .vscode/mcp.json (reemplaza TU_TOKEN_GITHUB)"
 echo "  3. Arranca el MCP: Ctrl+Shift+P > MCP: List Servers > dynatrace > Start"
 echo "  4. Abre Copilot Chat y cambia a Agent mode"
